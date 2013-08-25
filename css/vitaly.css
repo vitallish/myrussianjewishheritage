@@ -1,0 +1,80 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  background: #222;
+  color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+.main{
+
+	margin-top: 51px;
+	
+}
+.fade {
+	opacity: 0.7;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+.fade2 {
+	opacity: 0.4;
+}
+
+.fade2:hover {
+    opacity: 1;
+}
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 50px;
+  width: 20em;
+  left: 60px;
+  color: #fff;
+  display: none;
+  text-align: right;
+  font-size:2em;
+  line-height: 110%;
+}
+.blueimp-gallery-controls > .description {
+  display: block;
+}
+.blueimp-gallery > .v_audio {
+  position: absolute;
+  top: 50px;
+  width: 20em;
+  right: 60px;
+  color: #fff;
+  display: none;
+  text-align: right;
+  font-size:2em;
+  line-height: 110%;
+}
+.blueimp-gallery-controls > .v_audio {
+  display: block;
+}
+
+@media (min-width: 481px) {
+  .navigation {
+    list-style: none;
+    padding: 0;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation li:not(:first-child):before {
+    content: '| ';
+  }
+  
+}
+@media (max-width:480 px){
+.fade{
+	opacity: 1;
+	}
+
+
+}
